@@ -34,13 +34,5 @@ namespace OverloadOperators
             }
         }
 
-        public override bool Equals(object obj)
-        {
-            Person person = obj as Person;
-            if (person == null)
-                return false;
-
-            return this.ID.Equals(person.ID);
-        }
     }
 }

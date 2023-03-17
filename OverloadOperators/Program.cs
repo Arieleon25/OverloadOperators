@@ -21,7 +21,7 @@ namespace OverloadOperators
             employee2.LastName = "Rei";
             employee2.ID = 1;
 
-            Console.WriteLine(employee.ID == employee2.ID);
+            Console.WriteLine(employee == employee2);
 
             Console.ReadLine();
 
